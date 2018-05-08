@@ -9,6 +9,4 @@ travelca:
 	gcc -shared -o libtravelca.so travelca.o
 
 clean:
-	rm -f *.o
-	rm -f *.so
-	rm -f *.out
+	rm -f *.o *.so *.out

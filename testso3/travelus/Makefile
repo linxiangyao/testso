@@ -9,7 +9,5 @@ travelus:
 	gcc -shared -o libtravelus.so travelus.o
 
 clean:
-	rm -f *.o
-	rm -f *.so
-	rm -f *.out
+	rm -f *.o *.so *.out
 
